@@ -17,8 +17,7 @@ async function handleRequest(request) {
     return new Response('Missing Authorization header', { status: 401 })
   }
 
-  // 请替换为 x 的实际 API 基础 URL
-  const apiUrl = `https://api.x.com${path}${url.search}`
+  const apiUrl = `https://api.x.ai${path}${url.search}`
 
   const apiRequest = new Request(apiUrl, {
     method: method,
