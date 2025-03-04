@@ -8,12 +8,22 @@
 
 ## 部署到 Cloudflare Workers
 
-1. Fork 此仓库
-2. 在 Cloudflare Workers 中创建一个新的 Worker 选择导入储存库
-3. 选择复刻的仓库，一键部署就可以调用了
+Fork 此仓库    
 
-##  使用 Deno
+点击下面的按键，创建一个新的 `Worker`，选择复刻的仓库，一键部署就可以调用了
 
-1. Fork 此仓库
-2. 在deno主页中点击 New Project
-3. 选择复刻的仓库，选择主文件为src/worker.js一键部署就行了
+[![](./src/img/cloudflared.svg)](https://github.com/settings/tokens)
+
+> [!TIP]
+> 在 Cloudflare Workers 中创建一个新的 Worker 选择导入储存库
+选择复刻的仓库，一键部署就可以调用了
+
+## 部署到 Deno
+
+Fork 此仓库 
+
+
+[![](./src/img/deno.svg)](https://github.com/settings/tokens)
+
+> [!TIP]
+> 点击下面的按键，创建一个新的 `Worker`，选择复刻的仓库，选择主文件为`src/worker.js`一键部署就行了
