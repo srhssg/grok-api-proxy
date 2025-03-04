@@ -10,20 +10,31 @@
 
 Fork 此仓库    
 
-点击下面的按键，创建一个新的 `Worker`，选择复刻的仓库，一键部署就可以调用了
-
-[![](./src/img/cloudflared.svg)](https://github.com/settings/tokens)
-
 > [!TIP]
-> 在 Cloudflare Workers 中创建一个新的 Worker 选择导入储存库
-选择复刻的仓库，一键部署就可以调用了
+> 点击下面的按钮，登陆账号，然后选择`workers-and-pages`，点击创建，选择导入储存库，选择复刻的仓库，一键部署就可以调用了
+
+[![](img/cloudflared.svg)](https://www.cloudflare.com/)
 
 ## 部署到 Deno
 
 Fork 此仓库 
 
-
-[![](./src/img/deno.svg)](https://github.com/settings/tokens)
-
 > [!TIP]
-> 点击下面的按键，创建一个新的 `Worker`，选择复刻的仓库，选择主文件为`src/worker.js`一键部署就行了
+> 点击下面的按钮，登陆账号，然后授权Github，选择复刻的仓库，选择主文件为`src/worker.js`一键部署就行了
+
+[![](img/deno.svg)](https://deno.com/deploy)
+
+## 具有操作
+### Cloudflare
+![alt text](img/cloudflared_1.png)
+![alt text](img/cloudflared_2.png)
+
+### Deno
+![alt text](img/deno_1.png)
+![alt text](img/deno_2.png)
+![alt text](img/deno_3.png)
+![alt text](img/deno_4.png)
+
+## License
+
+**[MIT license](LICENSE)**
