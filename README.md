@@ -24,7 +24,7 @@ Fork 此仓库
 
 [![](img/deno.svg)](https://deno.com/deploy)
 
-## 具有操作
+## 具体操作
 ### Cloudflare
 ![alt text](img/cloudflared_1.png)
 ![alt text](img/cloudflared_2.png)
