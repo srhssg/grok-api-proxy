@@ -17,7 +17,7 @@ async function handleRequest(request) {
     return new Response('Missing Authorization header', { status: 401 });
   }
 
-  const apiUrl = `https://srhssg-grok-api.deno.dev${path}`;
+  const apiUrl = `https://api.x.ai${path}`;
 
   const apiRequest = new Request(apiUrl, {
     method: method,
